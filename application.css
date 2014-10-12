@@ -1,0 +1,45 @@
+/*LAYOUT ELEMENTS */
+body {
+  background-image: url(public/background-pattern.jpg);
+}
+
+h1 {
+    font-family: Pacifico;
+}
+
+#header {
+  background-color: #afbbe7;
+}
+
+.jumbotron {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+/*CONTENT ELEMENTS */
+.content {
+  margin: auto;
+}
+
+
+.slideshow-container {
+  height: 500px;
+  width: 450px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  border: 3px dashed grey;
+}
+
+img {
+  height: 400px;
+  padding-top: 40px;
+}
+
+.slideshow-container p {
+  font-style: italic;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

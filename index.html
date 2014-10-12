@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Insta-Slideshow</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <link rel="stylesheet" href="application.css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.1.min.js'></script>
+        <script src="application.js"></script>
+    </head>
+    <body>
+      <div class='container-fluid'>
+        <div class='jumbotron' id='header'>
+            <h1>Insta-Slideshow</h1>
+            <form class="form-inline">
+                <input class="form-control" type='text' name='query' id='query' placeholder="What do you want to see?"/>
+                <input class="btn btn-default" type='submit' name='submit' id='submit' value='Start Slideshow' />
+            </form>
+        </div>
+ 
+        <div id='results'>
+            <div class="row text-center">
+              <div class="slideshow-container"><img src=""/><p></p></div>
+            </div>
+        </div>
+      </div>
+    </body>
+</html>
